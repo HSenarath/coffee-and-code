@@ -1,15 +1,17 @@
 # Coffee and Code
 
-## [Live Demo](https://hsenarath.github.io/coffee-and-code/)
+## Goal of Project
 
-## Purpose
+To practice creating landing pages using HTMl and CSS Flexbox layout. To make this project fun to make I created the webpage as if it was a rudimentary portfolio website.
 
-To practice creating landing pages using HTMl and CSS Flexbox layout. To make this project fun to make I created the website as if it was a rudimentary portfolio website.
+## Live Demo
+
+[Click here to see it in action!](https://hsenarath.github.io/coffee-and-code/)
 
 ## Skills Practiced
 
-*Using the command line
-*HTML
-*CSS
-*Version control using Git
-*Chrome DevTools to debug
+* Using the command line
+* HTML
+* CSS
+* Version control using Git
+* Chrome DevTools to debug
