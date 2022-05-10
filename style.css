@@ -6,6 +6,7 @@ body {
     flex-direction: column;
 }
 
+/*header section*/
 .header {
     display: flex;
     align-items: flex-end;
@@ -33,8 +34,8 @@ ul {
     align-items: center;
     list-style: none;
     margin: 0;
-    padding: 0;
-    gap: 16px;
+    padding: 0 10px 0 0;
+    gap: 20px;
 }
 
 button {
@@ -43,32 +44,36 @@ button {
     font-size: 16px;
 }
 
-.intro-text {
-    background-color: #78BBBB;
-    padding: 10px;
-    border-radius: 25px;
-    font-family: Roboto, sans-serf;
-    font-size: 20px;
-    text-align: center;
-}
-
+/*introduction section*/
 .introduction {
     display: flex;
     flex-direction: row-reverse;
     align-items: center;
-    background-color: #78BBBB80;
-    padding: 20px;
+    padding: 100px;
+    height: 600px;
     background-color: #F6EDD8;
+}
 
+.intro-text {
+    background-color: RGBA(120,187,187,0.53);
+    padding: 10px;
+    border-radius: 25px;
+    font-family: Roboto, sans-serf;
+    font-size: 20px;
 }
 
 /*portfolio section*/
 
+.portfolio-title {
+    background-color: RGBA(244,173,54,0.37);
+    padding-top: 40px;
+}
+
 .portfolio {
     display: flex;
     justify-content: space-evenly;
-    background-color: #F6EDD8;
-    padding: 20px;
+    background-color: RGBA(244,173,54,0.37);
+    padding: 20px 10px 60px 10px;
 }
 
 .project-1,.project-2,.project-3 {
@@ -77,8 +82,9 @@ button {
     justify-content: center;
     width: 200px;
     border: 12px solid #78BBBB;
+    background-color: #F6EDD8;
     padding: 10px;
-    border-radius: 25px;
+    border-radius: 30px;
     
 }
 
@@ -100,17 +106,7 @@ p {
     border:40px solid #78BBBB;
     background-color: #F6EDD8;
 }
-
-/*footer*/
-.footer{
-    display: flex;
-    flex-direction: column;
-    background-color:#78BBBB;
-    color: #F6EDD8;
-    font-size: 20px;
-    padding-bottom: 5px;
-    text-align: center;
-}
+/*text fomatting*/
 
 a {
     text-decoration: none;
@@ -119,9 +115,7 @@ a {
 
 }
 
-.portfolio-title {
-    background-color: #F6EDD8;
-}
+
 h2 {
     text-align: center;
     font-size: 50px;
@@ -131,4 +125,17 @@ h2 {
 h3 {
     text-align: center;
 }
+
+/*footer*/
+.footer{
+    display: flex;
+    flex-direction: column;
+    background-color:#78BBBB;
+    color: #F6EDD8;
+    border: 10px dotted #F6EDD8;
+    font-size: 20px;
+    padding: 10px 0 0 0;
+    text-align: center;
+}
+
 
